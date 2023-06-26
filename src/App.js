@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './components/header';
 import Section from './components/Section';
 import Columns from './components/ThreeColums';
 import ColumnText from './components/textColumn';
@@ -11,6 +12,7 @@ import brandSection from './assets/img2.jpg';
 function App() {
   return (
     <div>
+      <Header />
       <Section
         bgColor={'bg-black bg-opacity-80'} itemColor="dark"
         backgroundImage={landingPage}
@@ -25,23 +27,23 @@ function App() {
         <Columns />
       </Section>
 
-      <Section backgroundImage={brandSection} sectionStyle={'bg-black bg-opacity-80 h-auto'} itemColor="dark"
+      <Section backgroundImage={brandSection} sectionStyle={'bg-black bg-opacity-80 h-min'} itemColor="dark"
         title={"We design brands."}
         description={"A simple look is all you need to crush your competition."}
       >
-        <ColumnText/>
+        <ColumnText />
       </Section>
 
-      <Section itemColor="light" sectionStyle={'h-auto'}
+      <Section itemColor="light" sectionStyle={'h-min'}
         title="We create stories."
         description="A killer narative will turn your readers into raving fans."
       >
         <ImageColumn />
       </Section>
 
-      <Strip/>
+      <Strip />
 
-      <Footer sectionStyle={"h-auto"}/>
+      <Footer />
 
     </div>
   );

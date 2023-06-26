@@ -2,7 +2,7 @@ import React from 'react';
 
 function Columns() {
     return (
-      <div className="flex flex-row justify-between pt-10 place-items-center leading-8">
+      <div className="flex flex-row justify-between pt-32 place-items-center leading-8">
         <div className="flex flex-col">
           <h3 className='font-bold'>DESIGN</h3>
           <p>With an emphasis on typography, white-space and mobile-optimized design, your website will look absolutely breathtaking.</p>
