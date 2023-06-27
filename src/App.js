@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './components/header';
 import Section from './components/Section';
 import Columns from './components/ThreeColums';
 import ColumnText from './components/textColumn';
@@ -11,6 +12,7 @@ import brandSection from './assets/img2.jpg';
 function App() {
   return (
     <div>
+      <Header />
       <Section
         bgColor={'bg-black bg-opacity-80'} itemColor="dark"
         backgroundImage={landingPage}
