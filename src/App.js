@@ -21,29 +21,29 @@ function App() {
       </Section>
 
       <Section
-        title={"We build experience."} itemColor="light"
+        title={"We build experience."} itemColor="light" sectionStyle={'h-auto sm:h-min md:h-screen'}
         description={"A minimal approach is the only way to design a website."}
       >
         <Columns />
       </Section>
 
-      <Section backgroundImage={brandSection} sectionStyle={'bg-black bg-opacity-80 h-full'} itemColor="dark"
+      <Section backgroundImage={brandSection} sectionStyle={'bg-black bg-opacity-80 h-auto'} itemColor="dark"
         title={"We design brands."}
         description={"A simple look is all you need to crush your competition."}
       >
-        <ColumnText/>
+        <ColumnText />
       </Section>
 
-      <Section itemColor="light" sectionStyle={'h-full'}
+      <Section itemColor="light" sectionStyle={'h-auto'}
         title="We create stories."
         description="A killer narative will turn your readers into raving fans."
       >
         <ImageColumn />
       </Section>
 
-      <Strip/>
+      <Strip />
 
-      <Footer/>
+      <Footer />
 
     </div>
   );

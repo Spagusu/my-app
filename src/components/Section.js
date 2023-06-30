@@ -11,13 +11,13 @@ function Section({ title, description, sectionStyle, backgroundImage, children, 
     }
 
     return (
-        <section className="bg-cover relative" style={sectionImage} >          
-            <div className={`${sectionStyle} ${textColor} h-screen py-44 px-60 sm:py-4 md:py-18 lg:py-44 xl:py-56 sm:px-2 md:px-16 xl:px-48`}>
-                <span className="h-32 sm:h-8  w-64 sm:w-screen md:w-10 text-4xl font-bold mb-4 sm:text-sm md:text-text-base lg:text-lg xl:text-xl 2xl:text-2xl">{title}</span>
-                <p className='h-34 w-2/4 text-base sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl'>
+        <section className="bg-cover w-full relative" style={sectionImage} >
+            <div className={`${sectionStyle} ${textColor} h-screen py-8 px-16 sm:pt-16 md:py-28 md:px-32 `}>
+                <span className="h-32 w-24 text-3xl font-bold md:text-4xl md:font-bold">{title}</span>
+                <p className='h-28 text-base md:text-xl md:w-2/3'>
                     {description}
                 </p>
-                {children} 
+                {children}
             </div>
         </section>
     );
