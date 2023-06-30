@@ -34,7 +34,7 @@ function App() {
         <ColumnText />
       </Section>
 
-      <Section itemColor="light" sectionStyle={'h-auto'}
+      <Section itemColor="light" sectionStyle={'h-auto md:h-auto'}
         title="We create stories."
         description="A killer narative will turn your readers into raving fans."
       >
