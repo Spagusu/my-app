@@ -1,7 +1,7 @@
 import React from 'react';
 function ColumnText () {
     return (
-        <div className='columns-6 pt-12 sm:pt-6 md:pt-10 lg:pt-16 xl:pt-24 2xl:pt-32 sm:text-xs md:textsm lg:text-base xl:text-xl 2xl:text-2xl'>
+        <div className='grid grid-cols-2 gap-9 md:grid-cols-2 lg:grid-cols-6'>
             <p className='italic system-ui'>les inxemius</p>
             <p className='Monaco'>avecsimple</p>
             <p className='uppercase Georgia'>whitespace</p>
