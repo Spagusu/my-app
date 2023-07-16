@@ -27,14 +27,14 @@ function App() {
         <Columns />
       </Section>
 
-      <Section backgroundImage={brandSection} sectionStyle={'bg-black bg-opacity-80 h-auto'} itemColor="dark"
+      <Section backgroundImage={brandSection} sectionStyle={'bg-black bg-opacity-80 h-min'} itemColor="dark"
         title={"We design brands."}
         description={"A simple look is all you need to crush your competition."}
       >
         <ColumnText />
       </Section>
 
-      <Section itemColor="light" sectionStyle={'h-auto md:h-auto'}
+      <Section itemColor="light" sectionStyle={'h-auto md:h-min  sm:h-min'}
         title="We create stories."
         description="A killer narative will turn your readers into raving fans."
       >
